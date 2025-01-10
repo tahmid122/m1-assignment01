@@ -235,3 +235,46 @@ header button:hover {
 .row-reverse {
   flex-direction: row-reverse;
 }
+/* Donate styles */
+#donate {
+  padding: 0 100px;
+}
+#donate .section-heading {
+  text-align: center;
+}
+.amounts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.amount {
+  padding: 35px;
+  background-color: white;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  margin-bottom: 32px;
+  transition: all 0.3s;
+}
+.amount h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.donate-amount input {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  color: rgba(14, 14, 14, 0.3);
+  border: none;
+  margin-bottom: 32px;
+  outline: none;
+}
+.donate-btn {
+  text-align: center;
+}
+.bg-light-green {
+  background-color: rgba(198, 228, 214, 1);
+}
+.amount:hover {
+  background-color: rgba(198, 228, 214, 1);
+}
