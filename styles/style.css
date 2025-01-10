@@ -7,6 +7,9 @@
   font-family: "Fira Sans", serif;
   box-sizing: border-box;
 }
+body {
+  background-color: rgba(245, 245, 245, 1);
+}
 /* Global styles */
 header,
 main {
@@ -27,6 +30,14 @@ p {
   color: rgba(14, 14, 14, 0.7);
 }
 /* Shared styles */
+.section-heading {
+  margin-bottom: 32px;
+}
+.section-heading h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
 
 /* header styles */
 header {
@@ -99,4 +110,77 @@ header button:hover {
 }
 .banner-texts button:hover {
   background-color: black;
+}
+
+/* Vision styles */
+.vision-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.vision-card {
+  padding: 32px;
+  border-radius: 16px;
+}
+.vision-card img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  margin-bottom: 24px;
+}
+.vision-card h4 {
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.vision-card p {
+  margin-bottom: 24px;
+}
+.vision-card button {
+  border: none;
+  border-radius: 8px;
+  padding: 11px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s;
+}
+.vision-card button:hover {
+  background-color: black;
+}
+.v-card1 {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+.v-card1 button {
+  background-color: rgba(84, 144, 245, 1);
+}
+.v-card2 {
+  background-color: rgba(198, 228, 214, 1);
+}
+.v-card2 button {
+  background-color: rgba(9, 161, 92, 1);
+}
+.v-card3 {
+  background-color: rgba(247, 235, 207, 1);
+}
+.v-card3 button {
+  background-color: rgba(255, 194, 57, 1);
+}
+.quote {
+  border-radius: 16px;
+  padding: 48px 24px;
+  background-color: white;
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: top 24px left 24px;
+}
+.quote h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 12px;
+  margin-bottom: 4px;
 }
