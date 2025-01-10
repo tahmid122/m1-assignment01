@@ -38,7 +38,20 @@ p {
   font-weight: bold;
   margin-bottom: 24px;
 }
-
+.btn {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  padding: 13px 26px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(0, 106, 80, 1);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: black;
+}
 /* header styles */
 header {
   display: flex;
@@ -183,4 +196,42 @@ header button:hover {
   line-height: 24px;
   margin-top: 12px;
   margin-bottom: 4px;
+}
+/* Recent news styles */
+
+.news {
+  margin-bottom: 24px;
+  padding: 48px;
+  background-color: white;
+  border-radius: 24px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 32px;
+}
+.news-main-image {
+  border-radius: 24px;
+}
+.news-description h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.news-description img {
+  margin-bottom: 12px;
+}
+.news-date-time {
+  margin-bottom: 12px;
+}
+.news-date-time span {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  line-height: 24px;
+  margin-right: 12px;
+}
+.news-description .description {
+  margin-bottom: 32px;
+}
+.row-reverse {
+  flex-direction: row-reverse;
 }
